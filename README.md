@@ -73,3 +73,18 @@ primeiro = int(input("Digite o primeiro numero para somar: "))
 segundo = int(input("Digite o segundo numero para somar: "))
 
 print("A soma dos numeros:", primeiro + segundo)
+
+
+#Ex.8
+import time
+
+soma = int(input("Digite o numero para multiplicar: "))
+soma2 = int(input("Digite os numero para multiplicar: "))
+
+print("A multiplicação do numero", soma *soma2)
+time.sleep(1)
+
+divisao = int(input("Digite os numero para dividir: "))
+divisao2 = int(input("Digite os numero para dividir: "))
+
+print("A divisão do numero: ", divisao /divisao2)
